@@ -19,8 +19,6 @@ public class StringMath {
 	
 	public static void test(String str){
 		str = str.trim();
-		String withoutSpaces = new String(str);
-		withoutSpaces=withoutSpaces.replace(" ", "");
 		String full[] = str.split(" ");
 		int result=0;
 		int prev,next;
