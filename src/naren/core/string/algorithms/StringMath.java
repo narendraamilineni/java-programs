@@ -6,6 +6,7 @@ public class StringMath {
 	 * The following solution may  work for others also
 	 * 9 / 2 / 2
 	 * 8 * 2 / 1
+	 * it won't work for + + or - - . will develope soon and check in. (WIP)
 	 */
 	public static void main(String[] args) {
 		test("- 2 + 3 + 5 * 1 - 2 + 8 / 2 / 2");
